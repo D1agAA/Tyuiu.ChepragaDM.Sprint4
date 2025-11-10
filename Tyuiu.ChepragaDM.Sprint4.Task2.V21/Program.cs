@@ -35,7 +35,7 @@ namespace Tyuiu.ChepragaDM.Sprint4.Task2.V21
             for (int i = 0; i <= len - 1; i++)
             {
                 
-                array[i] = r.Next(1, 8);
+                array[i] = r.Next(1, 7);
             }
 
             Console.WriteLine("Массив: ");
