@@ -12,7 +12,7 @@ namespace Tyuiu.ChepragaDM.Sprint4.Task0.V2.Lib
                 {
                     sum += array[i];
                 }
-
+                 
             }
             return sum;
         }
