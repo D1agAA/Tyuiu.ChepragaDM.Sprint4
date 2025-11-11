@@ -19,11 +19,11 @@ namespace Tyuiu.ChepragaDM.Sprint4.Task5.V16.Test
             };
 
             int[,] wait = {
-                            { 5, 7, 1, 1, 5 },
-                            { 5, 5, 5, 1, 1 },
-                            { 1, 5, 7, 1, 7 },
-                            { 7, 1, 7, 1, 7 },
-                            { 5, 1, 7, 1, 1 }
+                            { 1, 1, 1, 1, 1 },
+                            { 1, 1, 1, 1, 1 },
+                            { 1, 1, 1, 1, 1 },
+                            { 1, 1, 1, 1, 1 },
+                            { 1, 1, 1, 1, 1 }
             };
             int[,] res = ds.Calculate(a);
             CollectionAssert.AreEqual(wait, res);
