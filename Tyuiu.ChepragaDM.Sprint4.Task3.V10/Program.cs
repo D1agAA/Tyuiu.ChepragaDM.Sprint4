@@ -40,9 +40,9 @@ namespace Tyuiu.ChepragaDM.Sprint4.Task3.V10
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Массив: ");
-            for (int i = 0; i < stb; i++)
+            for (int i = 0; i < str; i++)
             {
-                for (int j = 0; j < str; j++)
+                for (int j = 0; j < stb; j++)
                 {
                     Console.Write($"{a[i, j]} \t");
                 }
